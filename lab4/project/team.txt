@@ -1,4 +1,4 @@
 List your group # and team members here
-Ryan Li
-Kevin Liu
-Jason Yim
+Li, Ryan
+Liu, Kevin
+Yim, Jason
