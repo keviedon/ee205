@@ -32,7 +32,6 @@ std::string vector_to_string(std::vector<T>& items) {
         stream << "," << items[i];
     // Accumuate that string into a final result
     }
-    stream << ")";
     return stream.str();
 }
 
