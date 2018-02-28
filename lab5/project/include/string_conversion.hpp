@@ -22,7 +22,7 @@ std::string vector_to_string(std::vector<T>& items) {
     for(int i; i < items.size(); i++) {
     // Get the string representation of it
         std::stringstream stream;
-        stream << item[i];
+        stream << items[i];
         std::string var = stream.str();
     // Put a comma after it if it's not the last element
         std::cout << ", ";
