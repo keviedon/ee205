@@ -25,10 +25,10 @@ std::string vector_to_string(std::vector<T>& items) {
         stream << item[i];
         std::string var = stream.str();
     // Put a comma after it if it's not the last element
-        var << ", ";
+        std::cout << ", ";
     // Accumuate that string into a final result
     }
-    cout << ")";
+    std::cout << ")" << std::endl;
     return "";
 }
 
