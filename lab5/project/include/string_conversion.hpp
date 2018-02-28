@@ -23,7 +23,7 @@ std::string vector_to_string(std::vector<T>& items) {
         return "";
     }
     else {
-        stream << items[0]
+        stream << items[0];
     }
     // For each item in the vector
     for(int i = 0; i < items.size(); i++) {
