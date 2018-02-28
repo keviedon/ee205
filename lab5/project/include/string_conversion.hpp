@@ -13,13 +13,13 @@ std::string lexical_cast(T obj) {
     stream << obj;
     // Take the std::string from the stringstream
     std::string var = stream.str();
-    return stream;
+    return var;
 }
 
 template <typename T>
 std::string vector_to_string(std::vector<T>& items) {
     // For each item in the vector
-    for(int i; i < items; i++) {
+    for(int i; i < items.size(); i++) {
     // Get the string representation of it
         std::stringstream stream;
         stream << item[i];
