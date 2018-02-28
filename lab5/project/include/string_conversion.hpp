@@ -26,16 +26,14 @@ std::string vector_to_string(std::vector<T>& items) {
         stream << items[0];
     }
     // For each item in the vector
-    for(int i = 0; i < items.size(); i++) {
+    for(int i = 1; i < items.size(); i++) {
     // Get the string representation of it
-        stream << items[i];
-        std::string var = stream.str();
     // Put a comma after it if it's not the last element
-        std::cout << ", ";
+        stream << "," << items[i];
     // Accumuate that string into a final result
     }
-    std::cout << ")" << std::endl;
-    return "";
+    stream << ")";
+    return stream.str();
 }
 
 #endif // EE205_STRING_CONVERSION_HPP
